@@ -5,8 +5,6 @@ import json
 app = QApplication([])
 
 
-with open('notes_data.json', 'w') as file:
-    json.dump(notes, file)
 
 
 notes_win = QWidget()
